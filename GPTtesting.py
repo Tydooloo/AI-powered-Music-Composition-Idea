@@ -28,9 +28,6 @@ class GPT():
         Genre = input('Please select your genre')
         key = input(f'Please select the key of your {harmonyormelody}')
         length = input('Please select the number of bars')
-
-
-
         my_msg = [
             {"role": "system", "content": f"You are music producer to create a {harmonyormelody}"},
             {"role": "user", "content": f"Please generate me a {harmonyormelody}, in the Genre of \
